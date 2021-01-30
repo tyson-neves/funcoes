@@ -48,5 +48,8 @@ function notaParaConceito (nota) {
     default: return ("Conceito inválido");
     }
 }
-let conceitoDoAluno = notaParaConceito(8.6);
-console.log(` O conceito do aluno é ${conceitoDoAluno}`);
+//let conceitoDoAluno = notaParaConceito(8.6);
+console.log(`O conceito do Bruno é ${notaParaConceito(10)}`);
+console.log(`O conceito do Vitoria é ${notaParaConceito(7)}`);
+console.log(`O conceito do Vivian é ${notaParaConceito(7.8)}`);
+console.log(`O conceito do Fabrício é ${notaParaConceito(3)}`);
