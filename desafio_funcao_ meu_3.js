@@ -1,6 +1,6 @@
 const nota1 = 7.8;
-const nota2 = 2;
-const nota3 = 1;
+const nota2 = 3.1;
+const nota3 = 6.7;
 
 function escolhaDasNotas (n1, n2, n3) {
     if (n1 >= n2 && n2 > n3) {
@@ -17,7 +17,7 @@ function escolhaDasNotas (n1, n2, n3) {
     
 }
 let somaDasNotas = escolhaDasNotas(nota1, nota2, nota3);
-console.log(somaDasNotas);
+//console.log(somaDasNotas);
 
 
 function mediaDasNotas (n1) {
@@ -25,7 +25,7 @@ function mediaDasNotas (n1) {
 }
 
 let mediaDoAluno = mediaDasNotas(somaDasNotas);
-console.log(mediaDoAluno);
+//console.log(mediaDoAluno);
 
 
 function aprovacao (media) {
