@@ -1,6 +1,6 @@
-function executar(fntion) {
-    if (typeof fntion ==="function") {
-        console.log(fntion());
+function executar(param) {
+    if (typeof param ==="function") {
+        console.log(param());
     }
 }
 
