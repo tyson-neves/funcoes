@@ -1,6 +1,6 @@
-function executar(funcao) {
-    if (typeof funcao ==="function") {
-        console.log(funcao());
+function executar(fntion) {
+    if (typeof fntion ==="function") {
+        console.log(fntion());
     }
 }
 
